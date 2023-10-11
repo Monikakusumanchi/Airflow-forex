@@ -1,0 +1,3 @@
+airflow connections add --conn-description "hive connection" --conn-login "hive" --conn-password "hive" --conn-type "hiveserver2" "hive_conn_1"
+airflow connections add --conn-description "forex-api connection"  --conn-type "HTTP"  --conn-host "https://gist.github.com/" "forex_api"
+airflow connections add --conn-description "hive connection" --conn-login "hive" --conn-password "hive" --conn-type "hiveserver2" "hive_conn_1"
